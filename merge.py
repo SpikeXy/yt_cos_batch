@@ -49,7 +49,7 @@ def process_files(files):
 
 
 root=r'D:\video\ocmp4合成'
-new_dir =  os.path.join(root, 'mp4').replace('\\','/')
+new_dir =  os.path.join(root, 'new_mp4').replace('\\','/')
 resource_dir = os.path.join(root, 'mp4').replace('\\','/')
 m4a_dir = os.path.join(root, 'm4a').replace('\\','/')
 
